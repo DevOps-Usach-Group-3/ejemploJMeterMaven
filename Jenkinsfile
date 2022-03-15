@@ -5,7 +5,7 @@ def jsonParse(def json) {
 pipeline {
     agent any
     stages {
-        stage("Paso 1: Testear JMeter"){
+        stage("Paso 1: Probar JMeter"){
             steps {
                 script {
                 sh "echo 'Ejecutar prueba de performance!'"
